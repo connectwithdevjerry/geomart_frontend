@@ -31,12 +31,12 @@ const OrderSummary = () => {
           <span className="text-lg font-bold text-gray-800">${total}</span>
         </div>
 
-        {/* <button
+        <button
           onClick={() => dispatch(handleCheckOut())}
           className="w-full bg-blue-500 text-white font-bold mt-6 py-3 rounded-lg hover:bg-blue-600"
         >
           Proceed to Checkout
-        </button> */}
+        </button>
       </div>
     </div>
   );
