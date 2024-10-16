@@ -1,7 +1,7 @@
 const PaymentFailed = () => {
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 max-w-md text-center">
-      {/* <div className="text-red-500">
+      <div className="text-red-500">
         <svg
           className="w-16 h-16 mx-auto"
           fill="none"
@@ -41,7 +41,7 @@ const PaymentFailed = () => {
         <a href="/" className="text-gray-500 hover:underline">
           Return to Home
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };
