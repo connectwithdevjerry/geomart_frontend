@@ -16,10 +16,10 @@ const OrderSummary = () => {
           <span className="text-gray-800">${subtotal.toFixed(2)}</span>
         </div>
 
-        {/* <div className="flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <span className="text-gray-600">Shipping</span>
           <span className="text-gray-800">${shipping}</span>
-        </div> */}
+        </div>
 
         <div className="flex justify-between mb-4">
           <span className="text-gray-600">Tax</span>

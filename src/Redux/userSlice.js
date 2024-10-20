@@ -23,10 +23,10 @@ export const userSlice = createSlice({
     setCurrentPath: (state, action) => {
       state.currentPath = action.payload;
     },
-    setMyProfile: (state, action) => {
-      state.myProfile = action.payload;
-      state.isAuth = true;
-    },
+    // setMyProfile: (state, action) => {
+    //   state.myProfile = action.payload;
+    //   state.isAuth = true;
+    // },
   },
   extraReducers: (builder) => {
     builder

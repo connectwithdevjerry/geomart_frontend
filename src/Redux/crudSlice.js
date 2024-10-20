@@ -299,23 +299,23 @@ export const handleRemoveFromCart = createAsyncThunk(
   }
 );
 
-export const getAllProducts = createAsyncThunk(
-  "crud/getAllProducts",
-  async ({ limit }) => {
-    try {
-      const response = await axios.get(
-        "http://localhost:5000/product/get_products",
-        {
-          params: { limit },
-        }
-      );
-      console.log({ products: response.data });
-      return response.data;
-    } catch (error) {
-      console.error(error);
-    }
-  }
-);
+// export const getAllProducts = createAsyncThunk(
+//   "crud/getAllProducts",
+//   async ({ limit }) => {
+//     try {
+//       const response = await axios.get(
+//         "http://localhost:5000/product/get_products",
+//         {
+//           params: { limit },
+//         }
+//       );
+//       console.log({ products: response.data });
+//       return response.data;
+//     } catch (error) {
+//       console.error(error);
+//     }
+//   }
+// );
 
 export const createTicket = createAsyncThunk(
   "crud/createTicket",

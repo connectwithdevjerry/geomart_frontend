@@ -48,12 +48,12 @@ const ShippingAddressForm = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h2 className="text-2xl font-semibold mb-6 text-gray-800">
+        {/* <h2 className="text-2xl font-semibold mb-6 text-gray-800">
           Shipping Address
         </h2>
         <div>
           {touched.orderId && errors.orderId && <span>{errors.orderId}</span>}
-        </div>
+        </div> */}
         <form action="*" onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
