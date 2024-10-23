@@ -42,32 +42,32 @@ customFetch.interceptors.response.use(
 
     return response;
   },
-  // async function (error) {
-  //   const originalRequest = error.config;
+  async function (error) {
+    const originalRequest = error.config;
 
-  //   if (error.response?.status == 403 && !originalRequest._retry) {
-  //     originalRequest._retry = true;
+    if (error.response?.status == 403 && !originalRequest._retry) {
+      originalRequest._retry = true;
 
-  //     const resp = await refreshBothTokens();
+      const resp = await refreshBothTokens();
 
-  //     const access_token = resp.response.accessToken;
-  //     const refresh_token = resp.response.refreshToken;
+      const access_token = resp.response.accessToken;
+      const refresh_token = resp.response.refreshToken;
 
-  //     localStorage.setItem("accessToken", access_token);
-  //     localStorage.setItem("refreshToken", refresh_token);
+      localStorage.setItem("accessToken", access_token);
+      localStorage.setItem("refreshToken", refresh_token);
 
-  //     customFetch.defaults.headers.common[
-  //       "Authorization"
-  //     ] = `Bearer ${access_token}`;
-  //     return customFetch(originalRequest);
-  //   }
-  //   if (error.response?.status == 401) {
-  //     console.log("refresh expired...");
+      customFetch.defaults.headers.common[
+        "Authorization"
+      ] = `Bearer ${access_token}`;
+      return customFetch(originalRequest);
+    }
+    if (error.response?.status == 401) {
+      console.log("refresh expired...");
 
-  //     window.location.href = "/signin";
-  //   }
-  //   return Promise.reject(error);
-  // }
+      window.location.href = "/signin";
+    }
+    return Promise.reject(error);
+  }
 );
 
 export default customFetch;
