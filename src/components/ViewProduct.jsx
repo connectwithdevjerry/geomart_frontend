@@ -92,7 +92,7 @@ const ViewProduct = () => {
       <Navbar />
       <div className="bg-gray-100">
         <header className="bg-white shadow">
-          {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center items-center">
               <input
                 type="text"
@@ -107,7 +107,7 @@ const ViewProduct = () => {
             <h2 className="font-bold py-6 text-gray-800">
               Search Results for '{filter.searchWord}'
             </h2>
-          </div> */}
+          </div>
         </header>
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
