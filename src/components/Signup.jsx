@@ -125,9 +125,9 @@ const Signup = () => {
                 </div>
               </div>
               <div>
-                {/* <label className="text-base font-medium text-gray-900">
+                <label className="text-base font-medium text-gray-900">
                   Password
-                </label> */}
+                </label>
                 <div className="mt-2">
                   <input
                     placeholder="Password"
