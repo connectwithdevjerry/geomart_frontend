@@ -214,7 +214,7 @@ const Shop = () => {
             </div>
           </div>
 
-          {/* <div id="homeandgarden" className="pt-10">
+          <div id="homeandgarden" className="pt-10">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               Home And Garden
             </h2>
@@ -275,7 +275,7 @@ const Shop = () => {
                 Load More {">>>"}
               </button>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
