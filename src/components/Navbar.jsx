@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="text-2xl font-bold text-gray-800">
             <Link to="/">GeoMART </Link>
           </div>
-          {/* <nav className="flex space-x-4">
+          <nav className="flex space-x-4">
             <Link to="/shop" className="text-gray-800 hover:text-gray-600">
               Shop
             </Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </button>
               </div>
             )}
-          </nav> */}
+          </nav>
         </div>
       </div>
     </header>
