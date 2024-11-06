@@ -16,7 +16,7 @@ const MyAccount = () => {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-800 mb-6">My Account</h1>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="bg-white shadow rounded-lg p-6">
+            {/* <div className="bg-white shadow rounded-lg p-6">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
                 Profile
               </h2>
@@ -39,7 +39,7 @@ const MyAccount = () => {
                   Edit Profile
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="bg-white shadow rounded-lg p-6">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
                 Order History
