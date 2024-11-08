@@ -54,7 +54,7 @@ const Homepage = () => {
             occasions.
           </p>
           <div className="flex items-center justify-center mt-10 p-5">
-            {/* <div className="rounded-lg bg-gray-200">
+            <div className="rounded-lg bg-gray-200">
               <div className="flex">
                 <div className="flex w-10 items-center justify-center rounded-tl-lg rounded-bl-lg border-r border-gray-200 bg-white p-5">
                   <svg
@@ -82,7 +82,7 @@ const Homepage = () => {
                   Search
                 </button>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
