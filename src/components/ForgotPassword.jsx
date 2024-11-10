@@ -21,8 +21,8 @@ const ForgotPassword = () => {
           .post("/user/forgotpassword", values)
           .then((res) => {
             console.log(res.data);
-            if (res.data.status) navigate(`/resetlinksent/${values.email}`);
-            alert("Password reset link has been sent to your email.");
+            // if (res.data.status) navigate(`/resetlinksent/${values.email}`);
+            // alert("Password reset link has been sent to your email.");
           })
           .catch(() => {});
       },
