@@ -62,11 +62,11 @@ const EditProduct = () => {
             setFileDisabled(false);
             setImage("");
             resetForm();
-            if (inputFile.current) {
-              inputFile.current.value = "";
-              inputFile.current.type = "text";
-              inputFile.current.type = "file";
-            }
+            // if (inputFile.current) {
+            //   inputFile.current.value = "";
+            //   inputFile.current.type = "text";
+            //   inputFile.current.type = "file";
+            // }
           })
           .catch((err) => console.log(err));
       },
