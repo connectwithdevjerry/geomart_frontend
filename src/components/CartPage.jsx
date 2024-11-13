@@ -28,7 +28,7 @@ const CartPage = () => {
             Your Shopping Cart
           </h1>
 
-          {/* <div className="flex flex-col md:flex-row md:space-x-8">
+          <div className="flex flex-col md:flex-row md:space-x-8">
             <div className="md:w-3/4">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4">
@@ -39,7 +39,7 @@ const CartPage = () => {
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </>
     );
