@@ -46,8 +46,8 @@ const CartItem = (item) => {
   }, [newOrderValue]);
 
   const handleNewOrderValue = async (val) => {
-    // setHasMounted(true);
-    // setNewOrderValue(val);
+    setHasMounted(true);
+    setNewOrderValue(val);
   };
 
   const removeFromCart = (values) => {
