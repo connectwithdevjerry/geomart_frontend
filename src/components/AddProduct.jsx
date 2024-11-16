@@ -106,7 +106,7 @@ const AddProduct = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       {renderError(touched, errors, url)}
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      {/* <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
           Enter New Product
         </h2>
@@ -172,7 +172,7 @@ const AddProduct = () => {
             Save Product
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
