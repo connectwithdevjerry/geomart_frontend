@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-100">
+      {/* <div className="bg-gray-100">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
             About Us
@@ -112,7 +112,7 @@ const About = () => {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
