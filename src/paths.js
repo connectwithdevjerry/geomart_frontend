@@ -1,0 +1,15 @@
+export const ADD_PRODUCT = "/addproduct";
+export const VIEW_PRODUCT = "/viewproduct/:search";
+export const EDIT_PRODUCT = "/editproduct";
+export const SIGNIN = "/signin";
+export const SIGNUP = "/signup";
+export const MYACCOUNT = "/account";
+export const ABOUT = "/about";
+export const SHOP = "/shop";
+export const CONTACT = "/contact";
+export const MYCART = "/mycart";
+export const PAYSUCCESS = "/payment-success";
+export const PAYFAILED = "/payment-failed";
+export const RESETLINKSENT = "/resetlinksent/:email";
+export const RESET_TOKEN = "/resetpassword/:token";
+export const FORGOT_PASSWORD = "/forgotpassword";
