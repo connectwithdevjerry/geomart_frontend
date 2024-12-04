@@ -41,7 +41,7 @@ const ResetPassword = () => {
 
   return (
     <section>
-      {/* {userMessage && (
+      {userMessage && (
         <div className="bg-indigo-900 text-center py-4 lg:px-4">
           <div
             className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
@@ -118,7 +118,7 @@ const ResetPassword = () => {
             </div>
           </form>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
