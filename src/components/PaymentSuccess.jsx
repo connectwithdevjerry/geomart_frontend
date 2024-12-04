@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const PaymentSuccess = () => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg text-center">
-      {/* <svg
+      <svg
         className="mx-auto h-20 w-20 text-green-500 mb-4"
         fill="none"
         stroke="currentColor"
@@ -35,7 +35,7 @@ const PaymentSuccess = () => {
         className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
       >
         Back to Home
-      </Link> */}
+      </Link>
     </div>
   );
 };
